@@ -1,6 +1,7 @@
 let tableBodyEl=document.querySelector("#output");
 
 let tableRowLoading=document.createElement("tr");
+tableRowLoading.setAttribute("id","loading")
 let tableData=document.createElement("td");
 
 tableData.textContent="Loading...";
